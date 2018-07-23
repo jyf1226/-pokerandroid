@@ -1,0 +1,4 @@
+include ':libcocos2dx','weixin_imsdk'
+project(':libcocos2dx').projectDir = new File(settingsDir, '../../cocos2d-x/cocos/platform/android/libcocos2dx')
+include ':PokerBlock'
+project(':PokerBlock').projectDir = new File(settingsDir, 'app')
